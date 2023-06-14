@@ -1,30 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html, body {
     width: 100%;
     height: 100%;
     background-color: #181a1b;
+}
+
+div, p {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(22, 22, 22) 2px 2px 4px;
     color: white;
     font-family: 'Poppins';
     font-size: 1rem;
 }
 
-.masthead {
-    background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, rgb(0, 0, 0) 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
-    position: relative;
+#contents {
     width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/masthead.jpg");
+    height: 100%;
+}
+
+.masthead {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/masthead.png");
     background-color: rgba(0, 0, 0, 0);
     background-position-x: 0%, 0%;
     background-position-y: 0%, 0%;
-    background-repeat: repeat, repeat;
-    background-attachment: scroll, scroll;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, rgb(0, 0, 0) 100%), url("/masthead.jpg");
-    background-size: auto, auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover; 
+    background-size: cover;
 }
