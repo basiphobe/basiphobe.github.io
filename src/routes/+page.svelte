@@ -1,2 +1,7 @@
-<p>this is / (home)</p>
-<p><a href="/test">test</p>
+<script>
+    import Nav from "./components/nav.svelte";
+    import Main from "./components/main.svelte";
+</script>
+
+<Nav />
+<Main />
