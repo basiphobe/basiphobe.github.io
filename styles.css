@@ -191,7 +191,7 @@ section h2 {
 /* About Section */
 .about-section {
     max-width: 800px;
-    margin: 0 auto 5rem;
+    margin: 5rem auto 0;
     scroll-margin-top: 6rem;
 }
 
