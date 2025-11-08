@@ -115,7 +115,7 @@ header h1 {
 
 /* Main Content */
 main {
-    padding: 6rem 0 4rem;
+    padding: 2rem 0 6rem;
 }
 
 section h2 {
@@ -134,6 +134,7 @@ section h2 {
     gap: 3rem;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 4rem;
 }
 
 .project-card {
@@ -325,7 +326,8 @@ section h2 {
 /* Footer */
 footer {
     border-top: 1px solid var(--border);
-    padding: 2rem 0;
+    padding: 3rem 0;
+    margin-top: 4rem;
     text-align: center;
 }
 
