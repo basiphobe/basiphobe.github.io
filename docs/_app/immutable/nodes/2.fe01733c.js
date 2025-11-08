@@ -1,1 +1,0 @@
-import{S as o,i,s as r,q as c,r as p,b as l,H as a,h as m}from"../chunks/index.6dba6488.js";function u(n){let t;return{c(){t=c("in page")},l(e){t=p(e,"in page")},m(e,s){l(e,t,s)},p:a,i:a,o:a,d(e){e&&m(t)}}}class x extends o{constructor(t){super(),i(this,t,null,u,r,{})}}export{x as component};
