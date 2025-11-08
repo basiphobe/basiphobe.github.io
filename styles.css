@@ -119,12 +119,40 @@ main {
 }
 
 section h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+/* About Section */
+.about-section {
+    max-width: 800px;
+    margin: 0 auto 5rem;
+    scroll-margin-top: 6rem;
+}
+
+.about-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2.5rem;
+    line-height: 1.8;
+}
+
+.about-content p {
     color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 /* Project Grid */
@@ -134,7 +162,6 @@ section h2 {
     gap: 3rem;
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 4rem;
 }
 
 .project-card {
