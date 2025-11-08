@@ -138,6 +138,7 @@ section h2 {
 }
 
 .project-card {
+    scroll-margin-top: 6rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 16px;
