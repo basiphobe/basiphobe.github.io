@@ -115,7 +115,7 @@ header h1 {
 
 /* Main Content */
 main {
-    padding: 2rem 0 4rem;
+    padding: 4rem 0 4rem;
 }
 
 section h2 {
@@ -142,8 +142,9 @@ section h2 {
     border-radius: 16px;
     padding: 2rem;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
     position: relative;
     overflow: hidden;
 }
@@ -177,6 +178,26 @@ section h2 {
 .project-card > * {
     position: relative;
     z-index: 1;
+}
+
+.project-icon {
+    font-size: 4rem;
+    line-height: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    filter: grayscale(0.3);
+    transition: all 0.4s ease;
+}
+
+.project-card:hover .project-icon {
+    filter: grayscale(0);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card h3 {
@@ -338,6 +359,16 @@ footer a:hover {
     
     .project-nav a {
         font-size: 0.9rem;
+    }
+    
+    .project-card {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .project-icon {
+        font-size: 3rem;
+        justify-content: flex-start;
     }
     
     .project-card h3 {

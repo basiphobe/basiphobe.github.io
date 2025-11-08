@@ -2,6 +2,7 @@
 const projects = [
     {
         id: 'image-zoom',
+        icon: '🔎',
         name: 'Image Zoom Extension',
         description: 'A powerful browser extension that enhances your image viewing experience with smooth zooming, panning, and keyboard controls.',
         details: 'Perfect for designers, researchers, and anyone who needs to inspect images in detail. Features include customizable zoom levels, drag-to-pan, and works on any webpage.',
@@ -11,6 +12,7 @@ const projects = [
     },
     {
         id: 'beatblink',
+        icon: '🎵',
         name: 'BeatBlink',
         description: 'Real-time audio visualization that transforms your music into mesmerizing visual patterns.',
         details: 'Turn any audio input into a dynamic visual experience. Great for live performances, streaming backgrounds, or just enjoying your music in a new way. Features real-time FFT analysis and customizable visual effects.',
@@ -20,6 +22,7 @@ const projects = [
     },
     {
         id: 'sci-assistant',
+        icon: '🧪',
         name: 'Sci-Assistant',
         description: 'AI-powered research assistant designed to help scientists and researchers navigate academic literature and analyze scientific data.',
         details: 'Leverages large language models fine-tuned on scientific literature to provide accurate, context-aware assistance. Ideal for researchers who need to quickly understand complex papers, generate hypotheses, or get explanations of scientific concepts.',
@@ -34,6 +37,7 @@ const projects = [
 function createProjectCard(project) {
     return `
         <div class="project-card" id="${project.id}">
+            <div class="project-icon">${project.icon}</div>
             <div class="project-content">
                 <h3>${project.name}</h3>
                 <p class="description">${project.description}</p>
