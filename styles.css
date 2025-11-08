@@ -145,6 +145,10 @@ header h1 {
     padding: 1rem 0;
 }
 
+[data-theme="light"] .project-nav {
+    background: rgba(255, 255, 255, 0.8);
+}
+
 .project-nav .container {
     display: flex;
     gap: 2rem;
@@ -159,6 +163,10 @@ header h1 {
     transition: color 0.2s ease;
     padding: 0.5rem 0;
     border-bottom: 2px solid transparent;
+}
+
+[data-theme="light"] .project-nav a {
+    color: var(--text-primary);
 }
 
 .project-nav a:hover {
