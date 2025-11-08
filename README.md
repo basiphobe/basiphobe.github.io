@@ -1,40 +1,77 @@
-# basiphobe.github.io# create-svelte
+# basiphobe.github.io# basiphobe.github.io# create-svelte
 
 
 
-Personal portfolio site showcasing my public GitHub projects.Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Personal portfolio site showcasing my public GitHub projects.
 
 
 
-## Overview## Creating a project
+## OverviewPersonal portfolio site showcasing my public GitHub projects.Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
 
 
-This is a simple, clean portfolio page that automatically fetches and displays all my public GitHub repositories using the GitHub API.If you're seeing this, you've probably already done this step. Congrats!
+This is a simple, clean portfolio page that automatically fetches and displays all my public GitHub repositories using the GitHub API.
 
 
 
-## Features```bash
+## Features## Overview## Creating a project
 
-# create a new project in the current directory
 
-- Automatically displays all public repositoriesnpm create svelte@latest
+
+- Automatically displays all public repositories
 
 - Shows repository descriptions, languages, stars, and forks
 
-- Displays repository topics as tags# create a new project in my-app
+- Displays repository topics as tagsThis is a simple, clean portfolio page that automatically fetches and displays all my public GitHub repositories using the GitHub API.If you're seeing this, you've probably already done this step. Congrats!
 
-- Responsive design that works on all devicesnpm create svelte@latest my-app
+- Responsive design that works on all devices
 
-- No build process required - pure HTML, CSS, and JavaScript```
-
-
-
-## Local Development## Developing
+- No build process required - pure HTML, CSS, and JavaScript
 
 
 
-Simply open `index.html` in your browser, or use a local server:Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Local Development## Features```bash
+
+
+
+Simply open `index.html` in your browser, or use a local server:# create a new project in the current directory
+
+
+
+```bash- Automatically displays all public repositoriesnpm create svelte@latest
+
+# Python 3
+
+python -m http.server 8000- Shows repository descriptions, languages, stars, and forks
+
+
+
+# Node.js (with http-server installed)- Displays repository topics as tags# create a new project in my-app
+
+npx http-server
+
+```- Responsive design that works on all devicesnpm create svelte@latest my-app
+
+
+
+Then visit `http://localhost:8000`- No build process required - pure HTML, CSS, and JavaScript```
+
+
+
+## Deployment
+
+
+
+This site is deployed via GitHub Pages. Any changes pushed to the `main` branch will be automatically published.## Local Development## Developing
+
+
+
+## License
+
+
+
+MITSimply open `index.html` in your browser, or use a local server:Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
 
 
 
