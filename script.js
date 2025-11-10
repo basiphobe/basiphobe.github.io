@@ -7,6 +7,7 @@ const projects = [
         description: 'A powerful browser extension that enhances your image viewing experience with smooth zooming, panning, and keyboard controls.',
         details: 'Perfect for designers, researchers, and anyone who needs to inspect images in detail. Features include customizable zoom levels, drag-to-pan, and works on any webpage.',
         github: 'https://github.com/basiphobe/image-zoom-extension',
+        privacy: '/privacy-image-zoom.html',
         tech: ['JavaScript', 'Browser Extension', 'WebExtensions API'],
         highlights: ['🔍 Smooth zoom controls', '🖱️ Drag to pan', '⌨️ Keyboard shortcuts']
     },
@@ -62,6 +63,11 @@ function createProjectCard(project) {
                         ${project.huggingface ? `
                             <a href="${project.huggingface}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
                                 🤗 Hugging Face
+                            </a>
+                        ` : ''}
+                        ${project.privacy ? `
+                            <a href="${project.privacy}" class="btn btn-secondary">
+                                🔒 Privacy Policy
                             </a>
                         ` : ''}
                     </div>
