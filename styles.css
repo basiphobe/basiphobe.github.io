@@ -335,6 +335,13 @@ section h2 {
     transform: scale(1.1) rotate(5deg);
 }
 
+.project-logo {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
 .project-content {
     display: flex;
     flex-direction: column;

@@ -2,7 +2,7 @@
 const projects = [
     {
         id: 'basitune',
-        icon: '🎵',
+        logo: 'basitune-icon.png',
         name: 'Basitune',
         description: 'A lightweight, cross-platform desktop wrapper for YouTube Music built with Tauri and Rust.',
         details: 'Minimal desktop application with Discord Rich Presence, AI-powered artist info and lyrics sidebar, persistent login, and content caching. Uses system webview instead of bundling Chromium for minimal resource usage.',
@@ -49,9 +49,12 @@ const projects = [
 
 // Create project card HTML
 function createProjectCard(project) {
+    const iconHtml = project.logo 
+        ? `<img src="${project.logo}" alt="${project.name} logo" class="project-logo">` 
+        : project.icon;
     return `
         <div class="project-card" id="${project.id}">
-            <div class="project-icon">${project.icon}</div>
+            <div class="project-icon">${iconHtml}</div>
             <div class="project-content">
                 <h3>${project.name}</h3>
                 <p class="description">${project.description}</p>
