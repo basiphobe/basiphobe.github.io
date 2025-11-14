@@ -1,6 +1,17 @@
 // Featured projects
 const projects = [
     {
+        id: 'basitune',
+        icon: '🎵',
+        name: 'Basitune',
+        description: 'A lightweight, cross-platform desktop wrapper for YouTube Music built with Tauri and Rust.',
+        details: 'Minimal desktop application with Discord Rich Presence, AI-powered artist info and lyrics sidebar, persistent login, and content caching. Uses system webview instead of bundling Chromium for minimal resource usage.',
+        github: 'https://github.com/basiphobe/Basitune',
+        demo: 'https://basitune.com',
+        tech: ['Rust', 'Tauri', 'JavaScript', 'OpenAI API', 'Discord RPC'],
+        highlights: ['🎵 YouTube Music wrapper', '🤖 AI artist bios & lyrics', '💬 Discord integration']
+    },
+    {
         id: 'image-zoom',
         icon: '🔎',
         name: 'Image Zoom Extension',
