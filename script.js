@@ -50,7 +50,7 @@ const projects = [
         icon: '🎨',
         name: 'Basify',
         description: 'A comprehensive collection of custom nodes for ComfyUI providing workflow automation, AI integration, and advanced utilities.',
-        details: 'Extends ComfyUI with powerful nodes including: Directory Auto Iterator, Directory Checkpoint Scanner, Describe Image (LLM), Latent Generator, Wildcard Processor, Metadata Viewer, Save Image (Enhanced), and Sound Notifier. Features batch processing, LLM-powered image description via Ollama, intelligent checkpoint scanning with symbolic link support, wildcard-based text variation, and enhanced image saving with metadata embedding.',
+        details: 'Extends ComfyUI with 8 powerful custom nodes:<br><br><strong>Nodes:</strong> Directory Auto Iterator • Directory Checkpoint Scanner • Describe Image (LLM) • Latent Generator • Wildcard Processor • Metadata Viewer • Save Image (Enhanced) • Sound Notifier<br><br><strong>Features:</strong> Batch processing • LLM-powered image description via Ollama • Intelligent checkpoint scanning with symbolic link support • Wildcard-based text variation • Enhanced image saving with metadata embedding',
         github: 'https://github.com/basiphobe/basify',
         tech: ['Python', 'ComfyUI', 'Ollama', 'PyTorch', 'PIL'],
         highlights: ['🔄 Automated workflows', '🤖 AI integration', '🎨 Dynamic content', '💾 Enhanced I/O']
