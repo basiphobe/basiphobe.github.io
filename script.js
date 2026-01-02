@@ -1,16 +1,6 @@
 // Featured projects
 const projects = [
     {
-        id: 'basify',
-        icon: '🎨',
-        name: 'Basify',
-        description: 'A comprehensive collection of custom nodes for ComfyUI providing workflow automation, AI integration, and advanced utilities.',
-        details: 'Extends ComfyUI with powerful tools for batch processing, LLM-powered image description via Ollama, intelligent checkpoint scanning, wildcard-based text variation, and enhanced image saving with metadata embedding.',
-        github: 'https://github.com/basiphobe/basify',
-        tech: ['Python', 'ComfyUI', 'Ollama', 'PyTorch', 'PIL'],
-        highlights: ['🔄 Automated workflows', '🤖 AI integration', '🎨 Dynamic content', '💾 Enhanced I/O']
-    },
-    {
         id: 'basitune',
         logo: 'basitune-icon.png',
         name: 'Basitune',
@@ -54,6 +44,16 @@ const projects = [
         huggingface: 'https://huggingface.co/basiphobe/sci-assistant',
         tech: ['Python', 'Transformers', 'Hugging Face', 'NLP'],
         highlights: ['🧬 Scientific domain expertise', '📚 Literature analysis', '🤖 LLM fine-tuned']
+    },
+    {
+        id: 'basify',
+        icon: '🎨',
+        name: 'Basify',
+        description: 'A comprehensive collection of custom nodes for ComfyUI providing workflow automation, AI integration, and advanced utilities.',
+        details: 'Extends ComfyUI with powerful nodes including: Directory Auto Iterator, Directory Checkpoint Scanner, Describe Image (LLM), Latent Generator, Wildcard Processor, Metadata Viewer, Save Image (Enhanced), and Sound Notifier. Features batch processing, LLM-powered image description via Ollama, intelligent checkpoint scanning with symbolic link support, wildcard-based text variation, and enhanced image saving with metadata embedding.',
+        github: 'https://github.com/basiphobe/basify',
+        tech: ['Python', 'ComfyUI', 'Ollama', 'PyTorch', 'PIL'],
+        highlights: ['🔄 Automated workflows', '🤖 AI integration', '🎨 Dynamic content', '💾 Enhanced I/O']
     }
 ];
 
