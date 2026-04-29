@@ -4,25 +4,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Accessible Text Page</title>
+  <style>
+    /* Visually hide skip link until focused */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px;
+      z-index: 100;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Skip link (bypass method) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <header>
     <h1>Accessible Text Page</h1>
+
+    <!-- Navigation landmark -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#link">Resources</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
+  <!-- Main landmark -->
+  <main id="main-content">
     <p>
       This is a simple, text-only HTML page. It uses clear structure,
       readable content, and standard HTML elements.
     </p>
 
-    <h2>About this page</h2>
+    <h2 id="about">About this page</h2>
     <p>
       This page is designed to work well with keyboards, screen readers,
       browser zoom, and default browser settings.
     </p>
 
-    <h2>Useful link</h2>
+    <h2 id="link">Useful link</h2>
     <p>
       Learn more from the
       <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">
@@ -34,5 +62,6 @@
   <footer>
     <p>Last updated: April 29, 2026</p>
   </footer>
+
 </body>
 </html>
