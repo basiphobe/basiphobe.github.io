@@ -25,7 +25,6 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <header>
-    <!-- Navigation landmark -->
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="#about">About</a></li>
@@ -34,22 +33,20 @@
     </nav>
   </header>
 
-  <!-- Main landmark (now focusable target) -->
   <main id="main-content" tabindex="-1">
     <h1>Accessible Text Page</h1>
 
     <p>
-      This is a simple, text-only HTML page. It uses clear structure,
-      readable content, and standard HTML elements.
+      This is a simple, text-only HTML page designed for accessibility.
     </p>
 
-    <h2 id="about">About this page</h2>
+    <h2 id="about" tabindex="-1">About this page</h2>
     <p>
-      This page is designed to work well with keyboards, screen readers,
-      browser zoom, and default browser settings.
+      This page works well with keyboards, screen readers,
+      and browser zoom.
     </p>
 
-    <h2 id="resources">Useful link</h2>
+    <h2 id="resources" tabindex="-1">Useful link</h2>
     <p>
       Learn more from the
       <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">
